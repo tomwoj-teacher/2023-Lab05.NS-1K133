@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script 8: Create group
+#Script 8: Create group, made by Tomasz Kupczyk
 
     read -p "\nEnter group name: " groupname
 
