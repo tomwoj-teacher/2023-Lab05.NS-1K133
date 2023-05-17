@@ -42,12 +42,12 @@ case $CHOICE in
 		;;
 		
 	8)	
-		#Script 8: Create group, mad by Tomasz Kupczyk
+		#Script 8: Create group, made by Tomasz Kupczyk
 		./bash/Script-8.bash
 		;;
 		
 	9)
-		#Script 9: Add user to the group, mad by Tomasz Kupczyk
+		#Script 9: Add user to the group, made by Tomasz Kupczyk
 		./bash/Script-9.bash
 		;;
 
