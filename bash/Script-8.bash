@@ -1,12 +1,12 @@
 #!/bin/bash
 #Script 8: Create group, made by Tomasz Kupczyk
 
-    read -p "\nEnter group name: " groupname
+    read -p "Enter group name: " groupname
 
 		if grep -q "^$groupname:" /etc/group; then
-		    echo "\nGroup named $groupname alredy exists.\n"
+		    echo "Group named $groupname alredy exists."
 		    exit 1
 		fi
 
 		groupadd "$groupname"
-		echo "\nGroup $groupname was successfully created.\n"
+		echo "Group $groupname was successfully created."
