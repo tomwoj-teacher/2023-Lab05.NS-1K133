@@ -4,7 +4,7 @@
     read -p "Enter user name: " username
 
 		if ! id "$username" >/dev/null 2>&1; then
-		    echo "\nUser named $username alredy exists.\n"
+		    echo "\nUser named $username doesn't exists.\n"
 		    exit 1
 		fi
 
