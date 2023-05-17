@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script 9: Add user to the group
+#Script 9: Add user to the group, made by Tomasz Kupczyk
 
     read -p "Enter user name: " username
 
