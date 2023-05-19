@@ -12,8 +12,8 @@ echo "Script 4: Remove user password"
 echo "Script 5: Change password"
 echo "Script 6: Add permissions to the user: execute, write, read"
 echo "Script 7: Remove permissions from the user: execute, write, read" 
-echo "Script 8: Create group"
-echo "Script 9: Add user to the group" 
+echo "Script 8: Create group" # Tomasz Kupczyk
+echo "Script 9: Add user to the group" # Tomasz Kupczyk
 echo "Script 10: Remove user from the group"
 echo "Script 11: Remove group"
 echo "Script 12: Create password for the group"
@@ -39,6 +39,16 @@ case $CHOICE in
 	0)
 		#Example, made by Tomasz Wojdyński
 		./bash/script-hello-world.bash
+		;;
+		
+	8)	
+		#Script 8: Create group, made by Tomasz Kupczyk
+		./bash/Script-8.bash
+		;;
+		
+	9)
+		#Script 9: Add user to the group, made by Tomasz Kupczyk
+		./bash/Script-9.bash
 		;;
 
 	99) 
